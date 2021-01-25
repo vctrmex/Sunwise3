@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -16,6 +16,23 @@
 		1D8EA0AD25B8115800BA0399 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D8EA0AB25B8115800BA0399 /* LaunchScreen.storyboard */; };
 		1D8EA0B825B8115800BA0399 /* SunwiseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8EA0B725B8115800BA0399 /* SunwiseTests.swift */; };
 		1D8EA0C325B8115800BA0399 /* SunwiseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8EA0C225B8115800BA0399 /* SunwiseUITests.swift */; };
+		1D8EA0DB25B8166200BA0399 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1D8EA0DA25B8166200BA0399 /* GoogleService-Info.plist */; };
+		1D8EA18A25B8242400BA0399 /* AppConstans.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8EA18925B8242400BA0399 /* AppConstans.swift */; };
+		1D8EA18F25B8245A00BA0399 /* FirebaseAuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8EA18E25B8245A00BA0399 /* FirebaseAuthManager.swift */; };
+		1D8EA19425B8254900BA0399 /* RegistroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8EA19325B8254900BA0399 /* RegistroViewController.swift */; };
+		1D8EA19925B8260300BA0399 /* AppExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8EA19825B8260300BA0399 /* AppExtensions.swift */; };
+		1D8EA1A125B8274A00BA0399 /* ChangePasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8EA1A025B8274A00BA0399 /* ChangePasswordViewController.swift */; };
+		1D8EA1D425B8369A00BA0399 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8EA1D325B8369A00BA0399 /* MainViewController.swift */; };
+		1D8EA1D925B8397600BA0399 /* Movies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8EA1D825B8397600BA0399 /* Movies.swift */; };
+		1D8EA26D25B8A98A00BA0399 /* AppNetworkUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8EA26C25B8A98A00BA0399 /* AppNetworkUtils.swift */; };
+		1D8EA27325B8AA4000BA0399 /* AppController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8EA27225B8AA4000BA0399 /* AppController.swift */; };
+		1D8EA27E25B949D100BA0399 /* PopularesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8EA27D25B949D100BA0399 /* PopularesCollectionViewCell.swift */; };
+		1D8EA28325B9507200BA0399 /* CalificadasCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8EA28225B9507200BA0399 /* CalificadasCollectionViewCell.swift */; };
+		1D8EA2DA25B96EF000BA0399 /* DetallesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8EA2D925B96EF000BA0399 /* DetallesViewController.swift */; };
+		1DC6DAFC25BB50DA00A9D95D /* SharedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC6DAFB25BB50DA00A9D95D /* SharedViewController.swift */; };
+		5B7B79221DABCA9B06A16292 /* Pods_Sunwise.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6380159FBAE6EF7DFCEF575 /* Pods_Sunwise.framework */; };
+		E1A25AEE32C84363D6928379 /* Pods_Sunwise_SunwiseUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E51FA80B1AFA53050D68736 /* Pods_Sunwise_SunwiseUITests.framework */; };
+		EE82152FA7250BAAF9FCD016 /* Pods_SunwiseTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC9520058D9797B9F1F0A451 /* Pods_SunwiseTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +53,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		006C7FC549D511CF39A2C099 /* Pods-Sunwise-SunwiseUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sunwise-SunwiseUITests.debug.xcconfig"; path = "Target Support Files/Pods-Sunwise-SunwiseUITests/Pods-Sunwise-SunwiseUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		1D8EA09A25B8115700BA0399 /* Sunwise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sunwise.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D8EA09D25B8115700BA0399 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1D8EA09F25B8115700BA0399 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +69,28 @@
 		1D8EA0BE25B8115800BA0399 /* SunwiseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SunwiseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D8EA0C225B8115800BA0399 /* SunwiseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SunwiseUITests.swift; sourceTree = "<group>"; };
 		1D8EA0C425B8115800BA0399 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D8EA0DA25B8166200BA0399 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		1D8EA18925B8242400BA0399 /* AppConstans.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstans.swift; sourceTree = "<group>"; };
+		1D8EA18E25B8245A00BA0399 /* FirebaseAuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseAuthManager.swift; sourceTree = "<group>"; };
+		1D8EA19325B8254900BA0399 /* RegistroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistroViewController.swift; sourceTree = "<group>"; };
+		1D8EA19825B8260300BA0399 /* AppExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppExtensions.swift; sourceTree = "<group>"; };
+		1D8EA1A025B8274A00BA0399 /* ChangePasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordViewController.swift; sourceTree = "<group>"; };
+		1D8EA1D325B8369A00BA0399 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		1D8EA1D825B8397600BA0399 /* Movies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movies.swift; sourceTree = "<group>"; };
+		1D8EA26C25B8A98A00BA0399 /* AppNetworkUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppNetworkUtils.swift; sourceTree = "<group>"; };
+		1D8EA27225B8AA4000BA0399 /* AppController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppController.swift; sourceTree = "<group>"; };
+		1D8EA27D25B949D100BA0399 /* PopularesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularesCollectionViewCell.swift; sourceTree = "<group>"; };
+		1D8EA28225B9507200BA0399 /* CalificadasCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalificadasCollectionViewCell.swift; sourceTree = "<group>"; };
+		1D8EA2D925B96EF000BA0399 /* DetallesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetallesViewController.swift; sourceTree = "<group>"; };
+		1DC6DAFB25BB50DA00A9D95D /* SharedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedViewController.swift; sourceTree = "<group>"; };
+		229CC930E8B149DE0E39751C /* Pods-Sunwise.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sunwise.debug.xcconfig"; path = "Target Support Files/Pods-Sunwise/Pods-Sunwise.debug.xcconfig"; sourceTree = "<group>"; };
+		3E51FA80B1AFA53050D68736 /* Pods_Sunwise_SunwiseUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sunwise_SunwiseUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		85A758D475B2B59163CED123 /* Pods-SunwiseTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SunwiseTests.release.xcconfig"; path = "Target Support Files/Pods-SunwiseTests/Pods-SunwiseTests.release.xcconfig"; sourceTree = "<group>"; };
+		A688DF06FFB5D7870D04F46F /* Pods-Sunwise-SunwiseUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sunwise-SunwiseUITests.release.xcconfig"; path = "Target Support Files/Pods-Sunwise-SunwiseUITests/Pods-Sunwise-SunwiseUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B6380159FBAE6EF7DFCEF575 /* Pods_Sunwise.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sunwise.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC9520058D9797B9F1F0A451 /* Pods_SunwiseTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SunwiseTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F64BBDE83765047008E65FEE /* Pods-Sunwise.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sunwise.release.xcconfig"; path = "Target Support Files/Pods-Sunwise/Pods-Sunwise.release.xcconfig"; sourceTree = "<group>"; };
+		FAACE9F0EB8A26DE75EE46D1 /* Pods-SunwiseTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SunwiseTests.debug.xcconfig"; path = "Target Support Files/Pods-SunwiseTests/Pods-SunwiseTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B7B79221DABCA9B06A16292 /* Pods_Sunwise.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE82152FA7250BAAF9FCD016 /* Pods_SunwiseTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +114,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1A25AEE32C84363D6928379 /* Pods_Sunwise_SunwiseUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +128,8 @@
 				1D8EA0B625B8115800BA0399 /* SunwiseTests */,
 				1D8EA0C125B8115800BA0399 /* SunwiseUITests */,
 				1D8EA09B25B8115700BA0399 /* Products */,
+				88A1F81AD4C8A78D3DD3A1EF /* Pods */,
+				CDC749899820E0296ED8B93C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,14 +146,14 @@
 		1D8EA09C25B8115700BA0399 /* Sunwise */ = {
 			isa = PBXGroup;
 			children = (
-				1D8EA09D25B8115700BA0399 /* AppDelegate.swift */,
-				1D8EA09F25B8115700BA0399 /* SceneDelegate.swift */,
-				1D8EA0A125B8115700BA0399 /* ViewController.swift */,
-				1D8EA0A325B8115700BA0399 /* Main.storyboard */,
+				1D8EA0D925B8127300BA0399 /* Configs */,
+				1D8EA0D825B8126900BA0399 /* Models */,
+				1D8EA0D725B8125A00BA0399 /* Controllers */,
+				1D8EA0D325B8119E00BA0399 /* Views */,
 				1D8EA0A925B8115800BA0399 /* Assets.xcassets */,
-				1D8EA0AB25B8115800BA0399 /* LaunchScreen.storyboard */,
 				1D8EA0AE25B8115800BA0399 /* Info.plist */,
 				1D8EA0A625B8115700BA0399 /* Sunwise.xcdatamodeld */,
+				1D8EA0DA25B8166200BA0399 /* GoogleService-Info.plist */,
 			);
 			path = Sunwise;
 			sourceTree = "<group>";
@@ -131,6 +176,75 @@
 			path = SunwiseUITests;
 			sourceTree = "<group>";
 		};
+		1D8EA0D325B8119E00BA0399 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1D8EA0AB25B8115800BA0399 /* LaunchScreen.storyboard */,
+				1D8EA0A325B8115700BA0399 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1D8EA0D725B8125A00BA0399 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1D8EA27D25B949D100BA0399 /* PopularesCollectionViewCell.swift */,
+				1D8EA28225B9507200BA0399 /* CalificadasCollectionViewCell.swift */,
+				1D8EA0A125B8115700BA0399 /* ViewController.swift */,
+				1D8EA19325B8254900BA0399 /* RegistroViewController.swift */,
+				1D8EA1A025B8274A00BA0399 /* ChangePasswordViewController.swift */,
+				1D8EA1D325B8369A00BA0399 /* MainViewController.swift */,
+				1D8EA27225B8AA4000BA0399 /* AppController.swift */,
+				1D8EA2D925B96EF000BA0399 /* DetallesViewController.swift */,
+				1DC6DAFB25BB50DA00A9D95D /* SharedViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		1D8EA0D825B8126900BA0399 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1D8EA18E25B8245A00BA0399 /* FirebaseAuthManager.swift */,
+				1D8EA1D825B8397600BA0399 /* Movies.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1D8EA0D925B8127300BA0399 /* Configs */ = {
+			isa = PBXGroup;
+			children = (
+				1D8EA09D25B8115700BA0399 /* AppDelegate.swift */,
+				1D8EA09F25B8115700BA0399 /* SceneDelegate.swift */,
+				1D8EA18925B8242400BA0399 /* AppConstans.swift */,
+				1D8EA19825B8260300BA0399 /* AppExtensions.swift */,
+				1D8EA26C25B8A98A00BA0399 /* AppNetworkUtils.swift */,
+			);
+			path = Configs;
+			sourceTree = "<group>";
+		};
+		88A1F81AD4C8A78D3DD3A1EF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				229CC930E8B149DE0E39751C /* Pods-Sunwise.debug.xcconfig */,
+				F64BBDE83765047008E65FEE /* Pods-Sunwise.release.xcconfig */,
+				006C7FC549D511CF39A2C099 /* Pods-Sunwise-SunwiseUITests.debug.xcconfig */,
+				A688DF06FFB5D7870D04F46F /* Pods-Sunwise-SunwiseUITests.release.xcconfig */,
+				FAACE9F0EB8A26DE75EE46D1 /* Pods-SunwiseTests.debug.xcconfig */,
+				85A758D475B2B59163CED123 /* Pods-SunwiseTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CDC749899820E0296ED8B93C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B6380159FBAE6EF7DFCEF575 /* Pods_Sunwise.framework */,
+				3E51FA80B1AFA53050D68736 /* Pods_Sunwise_SunwiseUITests.framework */,
+				EC9520058D9797B9F1F0A451 /* Pods_SunwiseTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,9 +252,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1D8EA0C725B8115800BA0399 /* Build configuration list for PBXNativeTarget "Sunwise" */;
 			buildPhases = (
+				81D7457AC0E1976A1364AE60 /* [CP] Check Pods Manifest.lock */,
 				1D8EA09625B8115700BA0399 /* Sources */,
 				1D8EA09725B8115700BA0399 /* Frameworks */,
 				1D8EA09825B8115700BA0399 /* Resources */,
+				890524183A0AE0EEDA3C2D07 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -155,6 +271,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1D8EA0CA25B8115800BA0399 /* Build configuration list for PBXNativeTarget "SunwiseTests" */;
 			buildPhases = (
+				68CD60181C61D232C02178D4 /* [CP] Check Pods Manifest.lock */,
 				1D8EA0AF25B8115800BA0399 /* Sources */,
 				1D8EA0B025B8115800BA0399 /* Frameworks */,
 				1D8EA0B125B8115800BA0399 /* Resources */,
@@ -173,9 +290,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1D8EA0CD25B8115800BA0399 /* Build configuration list for PBXNativeTarget "SunwiseUITests" */;
 			buildPhases = (
+				3EEBE92C769DEB0753B7F258 /* [CP] Check Pods Manifest.lock */,
 				1D8EA0BA25B8115800BA0399 /* Sources */,
 				1D8EA0BB25B8115800BA0399 /* Frameworks */,
 				1D8EA0BC25B8115800BA0399 /* Resources */,
+				39655EC6FA08A5DBCE5FE85C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -235,6 +354,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1D8EA0AD25B8115800BA0399 /* LaunchScreen.storyboard in Resources */,
+				1D8EA0DB25B8166200BA0399 /* GoogleService-Info.plist in Resources */,
 				1D8EA0AA25B8115800BA0399 /* Assets.xcassets in Resources */,
 				1D8EA0A525B8115700BA0399 /* Main.storyboard in Resources */,
 			);
@@ -256,15 +376,131 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		39655EC6FA08A5DBCE5FE85C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sunwise-SunwiseUITests/Pods-Sunwise-SunwiseUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sunwise-SunwiseUITests/Pods-Sunwise-SunwiseUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Sunwise-SunwiseUITests/Pods-Sunwise-SunwiseUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3EEBE92C769DEB0753B7F258 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Sunwise-SunwiseUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		68CD60181C61D232C02178D4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SunwiseTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		81D7457AC0E1976A1364AE60 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Sunwise-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		890524183A0AE0EEDA3C2D07 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sunwise/Pods-Sunwise-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sunwise/Pods-Sunwise-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Sunwise/Pods-Sunwise-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1D8EA09625B8115700BA0399 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DC6DAFC25BB50DA00A9D95D /* SharedViewController.swift in Sources */,
+				1D8EA27E25B949D100BA0399 /* PopularesCollectionViewCell.swift in Sources */,
+				1D8EA18F25B8245A00BA0399 /* FirebaseAuthManager.swift in Sources */,
+				1D8EA1D925B8397600BA0399 /* Movies.swift in Sources */,
+				1D8EA27325B8AA4000BA0399 /* AppController.swift in Sources */,
+				1D8EA2DA25B96EF000BA0399 /* DetallesViewController.swift in Sources */,
+				1D8EA18A25B8242400BA0399 /* AppConstans.swift in Sources */,
 				1D8EA0A225B8115700BA0399 /* ViewController.swift in Sources */,
+				1D8EA26D25B8A98A00BA0399 /* AppNetworkUtils.swift in Sources */,
+				1D8EA1A125B8274A00BA0399 /* ChangePasswordViewController.swift in Sources */,
+				1D8EA19925B8260300BA0399 /* AppExtensions.swift in Sources */,
+				1D8EA28325B9507200BA0399 /* CalificadasCollectionViewCell.swift in Sources */,
 				1D8EA09E25B8115700BA0399 /* AppDelegate.swift in Sources */,
+				1D8EA19425B8254900BA0399 /* RegistroViewController.swift in Sources */,
 				1D8EA0A825B8115700BA0399 /* Sunwise.xcdatamodeld in Sources */,
 				1D8EA0A025B8115700BA0399 /* SceneDelegate.swift in Sources */,
+				1D8EA1D425B8369A00BA0399 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,7 +581,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -406,7 +642,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -437,6 +673,7 @@
 		};
 		1D8EA0C825B8115800BA0399 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 229CC930E8B149DE0E39751C /* Pods-Sunwise.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -456,6 +693,7 @@
 		};
 		1D8EA0C925B8115800BA0399 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F64BBDE83765047008E65FEE /* Pods-Sunwise.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -475,6 +713,7 @@
 		};
 		1D8EA0CB25B8115800BA0399 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FAACE9F0EB8A26DE75EE46D1 /* Pods-SunwiseTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -497,6 +736,7 @@
 		};
 		1D8EA0CC25B8115800BA0399 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85A758D475B2B59163CED123 /* Pods-SunwiseTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -519,6 +759,7 @@
 		};
 		1D8EA0CE25B8115800BA0399 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 006C7FC549D511CF39A2C099 /* Pods-Sunwise-SunwiseUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -539,6 +780,7 @@
 		};
 		1D8EA0CF25B8115800BA0399 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A688DF06FFB5D7870D04F46F /* Pods-Sunwise-SunwiseUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
