@@ -20,7 +20,6 @@
 		1D8EA18A25B8242400BA0399 /* AppConstans.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8EA18925B8242400BA0399 /* AppConstans.swift */; };
 		1D8EA18F25B8245A00BA0399 /* FirebaseAuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8EA18E25B8245A00BA0399 /* FirebaseAuthManager.swift */; };
 		1D8EA19425B8254900BA0399 /* RegistroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8EA19325B8254900BA0399 /* RegistroViewController.swift */; };
-		1D8EA19925B8260300BA0399 /* AppExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8EA19825B8260300BA0399 /* AppExtensions.swift */; };
 		1D8EA1A125B8274A00BA0399 /* ChangePasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8EA1A025B8274A00BA0399 /* ChangePasswordViewController.swift */; };
 		1D8EA1D425B8369A00BA0399 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8EA1D325B8369A00BA0399 /* MainViewController.swift */; };
 		1D8EA1D925B8397600BA0399 /* Movies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8EA1D825B8397600BA0399 /* Movies.swift */; };
@@ -29,6 +28,7 @@
 		1D8EA27E25B949D100BA0399 /* PopularesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8EA27D25B949D100BA0399 /* PopularesCollectionViewCell.swift */; };
 		1D8EA28325B9507200BA0399 /* CalificadasCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8EA28225B9507200BA0399 /* CalificadasCollectionViewCell.swift */; };
 		1D8EA2DA25B96EF000BA0399 /* DetallesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8EA2D925B96EF000BA0399 /* DetallesViewController.swift */; };
+		1D9703FB25BF2D7A005F33C0 /* AppExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D9703FA25BF2D7A005F33C0 /* AppExtensions.swift */; };
 		1DC6DAFC25BB50DA00A9D95D /* SharedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC6DAFB25BB50DA00A9D95D /* SharedViewController.swift */; };
 		5B7B79221DABCA9B06A16292 /* Pods_Sunwise.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6380159FBAE6EF7DFCEF575 /* Pods_Sunwise.framework */; };
 		E1A25AEE32C84363D6928379 /* Pods_Sunwise_SunwiseUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E51FA80B1AFA53050D68736 /* Pods_Sunwise_SunwiseUITests.framework */; };
@@ -73,7 +73,6 @@
 		1D8EA18925B8242400BA0399 /* AppConstans.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstans.swift; sourceTree = "<group>"; };
 		1D8EA18E25B8245A00BA0399 /* FirebaseAuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseAuthManager.swift; sourceTree = "<group>"; };
 		1D8EA19325B8254900BA0399 /* RegistroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistroViewController.swift; sourceTree = "<group>"; };
-		1D8EA19825B8260300BA0399 /* AppExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppExtensions.swift; sourceTree = "<group>"; };
 		1D8EA1A025B8274A00BA0399 /* ChangePasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordViewController.swift; sourceTree = "<group>"; };
 		1D8EA1D325B8369A00BA0399 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		1D8EA1D825B8397600BA0399 /* Movies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movies.swift; sourceTree = "<group>"; };
@@ -82,6 +81,7 @@
 		1D8EA27D25B949D100BA0399 /* PopularesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularesCollectionViewCell.swift; sourceTree = "<group>"; };
 		1D8EA28225B9507200BA0399 /* CalificadasCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalificadasCollectionViewCell.swift; sourceTree = "<group>"; };
 		1D8EA2D925B96EF000BA0399 /* DetallesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetallesViewController.swift; sourceTree = "<group>"; };
+		1D9703FA25BF2D7A005F33C0 /* AppExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppExtensions.swift; sourceTree = "<group>"; };
 		1DC6DAFB25BB50DA00A9D95D /* SharedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedViewController.swift; sourceTree = "<group>"; };
 		229CC930E8B149DE0E39751C /* Pods-Sunwise.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sunwise.debug.xcconfig"; path = "Target Support Files/Pods-Sunwise/Pods-Sunwise.debug.xcconfig"; sourceTree = "<group>"; };
 		3E51FA80B1AFA53050D68736 /* Pods_Sunwise_SunwiseUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sunwise_SunwiseUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -216,8 +216,8 @@
 				1D8EA09D25B8115700BA0399 /* AppDelegate.swift */,
 				1D8EA09F25B8115700BA0399 /* SceneDelegate.swift */,
 				1D8EA18925B8242400BA0399 /* AppConstans.swift */,
-				1D8EA19825B8260300BA0399 /* AppExtensions.swift */,
 				1D8EA26C25B8A98A00BA0399 /* AppNetworkUtils.swift */,
+				1D9703FA25BF2D7A005F33C0 /* AppExtensions.swift */,
 			);
 			path = Configs;
 			sourceTree = "<group>";
@@ -487,6 +487,7 @@
 				1DC6DAFC25BB50DA00A9D95D /* SharedViewController.swift in Sources */,
 				1D8EA27E25B949D100BA0399 /* PopularesCollectionViewCell.swift in Sources */,
 				1D8EA18F25B8245A00BA0399 /* FirebaseAuthManager.swift in Sources */,
+				1D9703FB25BF2D7A005F33C0 /* AppExtensions.swift in Sources */,
 				1D8EA1D925B8397600BA0399 /* Movies.swift in Sources */,
 				1D8EA27325B8AA4000BA0399 /* AppController.swift in Sources */,
 				1D8EA2DA25B96EF000BA0399 /* DetallesViewController.swift in Sources */,
@@ -494,7 +495,6 @@
 				1D8EA0A225B8115700BA0399 /* ViewController.swift in Sources */,
 				1D8EA26D25B8A98A00BA0399 /* AppNetworkUtils.swift in Sources */,
 				1D8EA1A125B8274A00BA0399 /* ChangePasswordViewController.swift in Sources */,
-				1D8EA19925B8260300BA0399 /* AppExtensions.swift in Sources */,
 				1D8EA28325B9507200BA0399 /* CalificadasCollectionViewCell.swift in Sources */,
 				1D8EA09E25B8115700BA0399 /* AppDelegate.swift in Sources */,
 				1D8EA19425B8254900BA0399 /* RegistroViewController.swift in Sources */,

@@ -73,7 +73,7 @@ class ViewController: UIViewController {
     
     func goToNextVC(){
         
-        performSegue(withIdentifier: "otro", sender: nil)
+        performSegue(withIdentifier: "main", sender: nil)
         
         
     }
